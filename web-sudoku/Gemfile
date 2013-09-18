@@ -1,0 +1,4 @@
+source 'https://rubygems.org'
+#list of gems needed for a project
+gem 'shotgun'
+gem 'sinatra'

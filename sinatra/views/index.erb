@@ -1,0 +1,20 @@
+<!-- <h1>Hello</h1>
+ My name is <%= @name %> -->
+<!-- 
+ <% if @visitor %>
+ Hello , <%= @visitor %>!
+ <% end %>
+ <% if @name %>
+ My name is <%= @name %>
+ <% end %> -->
+
+<%if @visitor %>
+Hello , <%= @visitor %>!
+<% else %>
+<form action ="/hello" >
+	My name is <%= @name %>
+	What's your name ?
+<input type="text" name="name">
+<input type ="submit">
+</form>
+<% end %>
