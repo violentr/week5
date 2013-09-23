@@ -1,4 +1,6 @@
 source 'https://rubygems.org'
 #list of gems needed for a project
-gem 'shotgun'
+ruby '2.0.0'
+gem 'newrelic_rpm'
 gem 'sinatra'
+gem 'rack-flash3'

@@ -1,0 +1,16 @@
+<html>
+	<head>
+		<title> My report</title>
+	</head>
+	<body>
+		<div>	
+
+		<%if @iphone_there %>
+		<h1><a href='http://store.apple.com/us/buy-iphone/iphone5c'>Go get it man !!</a></h1>
+		<%else%>
+		<b>No Iphone5 for you today !! </b>
+		<% end%>
+		<%= message_to_user(@message) %>
+	</div>
+	</body>
+</html>

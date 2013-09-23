@@ -1,3 +1,4 @@
+
 div.box, div.cell{
 	display: inline-block;
 }
@@ -13,4 +14,17 @@ height: 30px;
 body {
 	text-align: center;
 	font-family: Arial;
+}
+.incorrect {
+  background-color: yellow;
+}
+.correct {
+  background-color: orange;
+}
+.value-provided {
+  background-color: #DDD;
+}
+
+#flash {
+  margin: 20px;
 }
