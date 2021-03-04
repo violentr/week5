@@ -2,7 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     colorize (0.5.8)
-    rack (1.5.2)
+    rack (1.6.13)
     rack-protection (1.5.0)
       rack
     shotgun (0.9)
